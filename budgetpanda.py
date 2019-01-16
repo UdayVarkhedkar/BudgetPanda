@@ -1,5 +1,4 @@
 import pandas as pd
-from pandas import Timestamp as panda_time
 import calendar
 
 from filter_helpers import get_date_filter, get_category_filter, get_credit_filter, get_debit_filter
