@@ -14,6 +14,6 @@ def get_credit_filter(df):
 def get_debit_filter(df):
     return (df['Transaction Type'] == 'debit')
 
-def get_category_filter(df, category, category_dict):
-    return (df['Category'].isin(category_dict[category]))
+def get_category_filter(df, category):
+    return (df['Category'] == category)
     
